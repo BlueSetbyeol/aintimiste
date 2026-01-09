@@ -1,0 +1,41 @@
+.image_left,
+.image_right {
+  background-color: var(--primary-bg-color);
+  padding: 3em 0;
+  height: 50vh;
+}
+
+.image_left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.image_right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.paragraph_image {
+  width: 40%;
+  height: 90%;
+  padding: 1.1em 0;
+}
+
+.paragraph_image img {
+  width: 100%;
+  height: auto;
+}
+
+.section_information {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0 2em;
+  text-align: left;
+}
