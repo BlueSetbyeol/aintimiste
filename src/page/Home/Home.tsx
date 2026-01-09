@@ -3,7 +3,7 @@ import ImageText from "../../components/ImageText/ImageText";
 import appiculteurs from "../../assets/img/apiculteurs_img.jpeg";
 import morille from "../../assets/img/plat_morilles_img.jpeg";
 
-let TextImageInfo = [
+const TextImageInfo = [
   {
     image: { url: appiculteurs },
     titre:
