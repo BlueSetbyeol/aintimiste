@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <section>
-        <p>Hello</p>
+        <p>Soon to be done</p>
       </section>
     </>
   );
